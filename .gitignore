@@ -1,0 +1,28 @@
+# Ignore virtual environments
+env/
+venv/
+
+# Ignore data files (DO NOT commit raw/processed data)
+data/
+data/raw/
+data/processed/
+
+# Ignore saved models
+models/
+*.pkl  # Pickle files
+
+# Ignore logs and checkpoints
+logs/
+*.log
+*.csv
+*.xlsx
+
+# Ignore Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Ignore system & IDE files
+__pycache__/
+*.pyc
+*.pyo
+.DS_Store
+.vscode/
